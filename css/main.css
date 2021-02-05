@@ -4,6 +4,7 @@
 .row>[class*="col-"]{
   border:1px solid black;
   min-height: 160px;
+  white-space: nowrap;
 }
 
 
