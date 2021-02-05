@@ -1,0 +1,26 @@
+
+
+
+.row>[class*="col-"]{
+  border:1px solid black;
+  min-height: 160px;
+}
+
+
+.pink{
+  font-size: 20px;
+  background-color: rgb(255, 192, 203);
+  text-align: center;
+  line-height: 160px;
+}
+
+.darkpink{
+  background-color: rgb(240, 127, 128);
+  border-right: 2px solid rgb(255, 192, 203);
+  border-top: 4px solid rgb(255, 192, 203);
+  border-bottom: 4px solid rgb(255, 192, 203);
+}
+
+.darkpink:first-child{
+  border-left: 2px solid rgb(255, 192, 203);
+}
