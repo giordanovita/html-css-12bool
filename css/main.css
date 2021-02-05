@@ -22,5 +22,8 @@
 }
 
 .darkpink:first-child{
-  border-left: 2px solid rgb(255, 192, 203);
+  border-left: 4px solid rgb(255, 192, 203);
+}
+.darkpink:last-child{
+  border-right: 4px solid rgb(255, 192, 203);
 }
